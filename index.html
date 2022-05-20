@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet">
+        <meta charset="utf-8">
+        <title>Test Vidio Audio Gambar</title>
+    </head>
+    <Body>
+        <H1>BELAJAR AWAL PENGENALAN HTML I GAMBAR, AUDIO dan VIDEO</H1>
+        <H1>Multimedia dan Media Source dalam WEB</Source></H1>
+        <hr>
+        <ul>
+            <li>
+                <h2>Picture Responsive</h2>
+                <H2>Ukuran Akan Disesuaikan Sesuai Tampilan Html</H2>
+                <hr>
+                <picture>
+                    <source media = "(max-width: 600px)" srcset="rx7.jpg">
+                    <source media="(max-width: 1200px)" srcset="supra.jpg">
+                    <img src="rx7.jpg">
+                </picture>
+            </li>
+            <li><h2>Video</h2>
+                <hr>
+                <video controls width="400" height="400"
+                    autoplay loop muted preload="auto"
+                    poster="poster.png">
+                    <source src="video.mp4" type="video/mp4">
+                    <source src="video.mp4" type="video/webm">
+                   
+                </video>
+            </li>
+            <li>
+                <h2>Audio</h2>
+                <hr>
+                <audio controls >
+                    <source src="musik.mp3" type="audio/mp3">
+                </audio>
+            </li>
+        </ul>
+        
+    </Body>
+</html>
